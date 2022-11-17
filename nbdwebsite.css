@@ -19,10 +19,7 @@ main {
 
 * { outline: none !important; }
 
-a:hover {
-    text-decoration: none;
-    opacity: 0.95;
-}
+
 
  h3, h4, h5, h6, p, a, input, div, textarea, label {
     margin: 0;
@@ -59,7 +56,7 @@ img { border-style: none; }
 }
 
 
-button {
+.button {
  background: #ff8ba7;
  border-radius: 11px;
  padding: 20px 45px;
