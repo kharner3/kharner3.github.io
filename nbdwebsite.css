@@ -9,7 +9,6 @@ body {
     margin: 0px;
     color: #fff;
     background-color: #faeee7;
-
 }
 
 main { 
@@ -68,3 +67,27 @@ button {
  font: normal bold 26px/1 "lobster two";
  text-align: center;
 }
+
+/* more recipes */
+* {
+    box-sizing: border-box;
+  }
+  
+  .box {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  /* bios? */
+  .bio {
+    float: left;
+    width: 25%;
+    padding: 50px;
+  }
